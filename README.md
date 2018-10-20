@@ -3,6 +3,7 @@ Assignments for school of AI
 
 
 #methodOfFiniteDifferences.py:
+
 hello!
 
 This is my reinforcement algorithm for a bipedal walker, for the midterm assignment of the Move 37 Course.
