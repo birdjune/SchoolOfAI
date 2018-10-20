@@ -16,7 +16,8 @@ For now, there are 2000 iterations. This can be adjusted at row 42.
 
 There are a few things I did implement, but are not turned on in the .py in this repository.
 The first is a learning rate which goes down as time goes by. This means that learning in the beginning relies more on the present,
-whereas learning later on relies more on the past. You can turn this on by setting decay to something other than 0 (row 40 in the .py)
+whereas learning later on relies more on the past. You can turn this on by setting decay to something other than 0 (row 40 in the .py).
+
 The second is what I call a goCrazy-functionality, 
 and this entails that if the weights were not updated for x amount of iterations, they will update anyway. 
 I have made this as I noticed that the algorithm started out updating a lot, and hoped this would get it over that bump. 
