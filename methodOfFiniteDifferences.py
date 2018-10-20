@@ -69,9 +69,9 @@ if __name__ == '__main__':
             notUpdatedCount = 0
             numUpdates += 1
             learningRate = learningRate * 1/(1 + decay * numUpdates)
+            weights = copy.deepcopy(newWeights)
             #to show the new performance in the screen + let know the iterationnumber and new reward. 
-            #comment the following three lines if unwanted:
-            weights = copy.deepcopy(newWeights)   
+            #comment the following three lines if unwanted:              
             runEnvironment(env,weights,True)
             print(i)
             print(newReward)
